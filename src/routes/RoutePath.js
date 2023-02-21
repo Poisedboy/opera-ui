@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from '../components/Home';
 import About from "../components/About";
@@ -7,14 +7,18 @@ import Login from "../components/Login";
 import Authorization from "./Authorization";
 import PERMISSIONS from "../permissions/Permissions";
 import Extra from '../components/Extra';
-import Breakfast from "../components/Breakfats";
+const Breakfasts = lazy(() => import('../components/Breakfast/Breakfats'));
 
 const RoutePath = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
-            <Route path="breakfast" element={<Breakfast />} />
+            <Route path="breakfast" element={
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Breakfasts />
+                </Suspense>}
+            />
             <Route element={<Authorization permissions={[PERMISSIONS.CAN_VIEW_EXTRA]} />}>
                 <Route path="extra" element={<Extra />} />
             </Route>

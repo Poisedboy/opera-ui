@@ -7,7 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-transform: uppercase;
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }
