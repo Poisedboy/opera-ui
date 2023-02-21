@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/opera-ui/static/css/main.073c9b0a.css",
-    "main.js": "/opera-ui/static/js/main.e30728e0.js",
+    "main.css": "/opera-ui/static/css/main.132387b5.css",
+    "main.js": "/opera-ui/static/js/main.d41ed1f2.js",
+    "static/js/585.f6b16a20.chunk.js": "/opera-ui/static/js/585.f6b16a20.chunk.js",
     "static/media/solt-curd-fritter.jpg": "/opera-ui/static/media/solt-curd-fritter.81c9ee5286d8f348e6b7.jpg",
     "static/media/reception.jpg": "/opera-ui/static/media/reception.edff48f5150af972e7d6.jpg",
     "static/media/plate-health.jpg": "/opera-ui/static/media/plate-health.77ed537445f62e62aa5b.jpg",
@@ -11,12 +12,14 @@
     "static/media/sweet-flippers.jpg": "/opera-ui/static/media/sweet-flippers.54261a520290c17fe810.jpg",
     "static/media/sweet-curd-fritter.jpg": "/opera-ui/static/media/sweet-curd-fritter.13f939c9be33706c8de2.jpg",
     "static/media/chicken-flippers.jpg": "/opera-ui/static/media/chicken-flippers.4bfb17397c4b36abb3a6.jpg",
+    "static/media/no-smoking.png": "/opera-ui/static/media/no-smoking.2273a30bc1dd73c86e6b.png",
     "index.html": "/opera-ui/index.html",
-    "main.073c9b0a.css.map": "/opera-ui/static/css/main.073c9b0a.css.map",
-    "main.e30728e0.js.map": "/opera-ui/static/js/main.e30728e0.js.map"
+    "main.132387b5.css.map": "/opera-ui/static/css/main.132387b5.css.map",
+    "main.d41ed1f2.js.map": "/opera-ui/static/js/main.d41ed1f2.js.map",
+    "585.f6b16a20.chunk.js.map": "/opera-ui/static/js/585.f6b16a20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e30728e0.js"
+    "static/css/main.132387b5.css",
+    "static/js/main.d41ed1f2.js"
   ]
 }
