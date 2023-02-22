@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.132387b5.css",
-    "main.js": "/static/js/main.07b70469.js",
+    "main.js": "/static/js/main.9923abe0.js",
     "static/js/585.f6b16a20.chunk.js": "/static/js/585.f6b16a20.chunk.js",
     "static/media/solt-curd-fritter.jpg": "/static/media/solt-curd-fritter.81c9ee5286d8f348e6b7.jpg",
     "static/media/reception.jpg": "/static/media/reception.edff48f5150af972e7d6.jpg",
@@ -15,11 +15,11 @@
     "static/media/no-smoking.png": "/static/media/no-smoking.2273a30bc1dd73c86e6b.png",
     "index.html": "/index.html",
     "main.132387b5.css.map": "/static/css/main.132387b5.css.map",
-    "main.07b70469.js.map": "/static/js/main.07b70469.js.map",
+    "main.9923abe0.js.map": "/static/js/main.9923abe0.js.map",
     "585.f6b16a20.chunk.js.map": "/static/js/585.f6b16a20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.132387b5.css",
-    "static/js/main.07b70469.js"
+    "static/js/main.9923abe0.js"
   ]
 }
