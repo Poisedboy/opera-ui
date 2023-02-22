@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/opera-ui/static/css/main.132387b5.css",
-    "main.js": "/opera-ui/static/js/main.8426351d.js",
-    "static/js/585.f6b16a20.chunk.js": "/opera-ui/static/js/585.f6b16a20.chunk.js",
-    "static/media/solt-curd-fritter.jpg": "/opera-ui/static/media/solt-curd-fritter.81c9ee5286d8f348e6b7.jpg",
-    "static/media/reception.jpg": "/opera-ui/static/media/reception.edff48f5150af972e7d6.jpg",
-    "static/media/plate-health.jpg": "/opera-ui/static/media/plate-health.77ed537445f62e62aa5b.jpg",
-    "static/media/croissant-n-cutting.jpg": "/opera-ui/static/media/croissant-n-cutting.91e2cda9f7a6248ed03e.jpg",
-    "static/media/fry-eggs.jpg": "/opera-ui/static/media/fry-eggs.f262d094b05121d75d62.jpg",
-    "static/media/cereal.jpg": "/opera-ui/static/media/cereal.5b2143313a4b4fdf6557.jpg",
-    "static/media/sweet-flippers.jpg": "/opera-ui/static/media/sweet-flippers.54261a520290c17fe810.jpg",
-    "static/media/sweet-curd-fritter.jpg": "/opera-ui/static/media/sweet-curd-fritter.13f939c9be33706c8de2.jpg",
-    "static/media/chicken-flippers.jpg": "/opera-ui/static/media/chicken-flippers.4bfb17397c4b36abb3a6.jpg",
-    "static/media/no-smoking.png": "/opera-ui/static/media/no-smoking.2273a30bc1dd73c86e6b.png",
-    "index.html": "/opera-ui/index.html",
-    "main.132387b5.css.map": "/opera-ui/static/css/main.132387b5.css.map",
-    "main.8426351d.js.map": "/opera-ui/static/js/main.8426351d.js.map",
-    "585.f6b16a20.chunk.js.map": "/opera-ui/static/js/585.f6b16a20.chunk.js.map"
+    "main.css": "/static/css/main.132387b5.css",
+    "main.js": "/static/js/main.07b70469.js",
+    "static/js/585.f6b16a20.chunk.js": "/static/js/585.f6b16a20.chunk.js",
+    "static/media/solt-curd-fritter.jpg": "/static/media/solt-curd-fritter.81c9ee5286d8f348e6b7.jpg",
+    "static/media/reception.jpg": "/static/media/reception.edff48f5150af972e7d6.jpg",
+    "static/media/plate-health.jpg": "/static/media/plate-health.77ed537445f62e62aa5b.jpg",
+    "static/media/croissant-n-cutting.jpg": "/static/media/croissant-n-cutting.91e2cda9f7a6248ed03e.jpg",
+    "static/media/fry-eggs.jpg": "/static/media/fry-eggs.f262d094b05121d75d62.jpg",
+    "static/media/cereal.jpg": "/static/media/cereal.5b2143313a4b4fdf6557.jpg",
+    "static/media/sweet-flippers.jpg": "/static/media/sweet-flippers.54261a520290c17fe810.jpg",
+    "static/media/sweet-curd-fritter.jpg": "/static/media/sweet-curd-fritter.13f939c9be33706c8de2.jpg",
+    "static/media/chicken-flippers.jpg": "/static/media/chicken-flippers.4bfb17397c4b36abb3a6.jpg",
+    "static/media/no-smoking.png": "/static/media/no-smoking.2273a30bc1dd73c86e6b.png",
+    "index.html": "/index.html",
+    "main.132387b5.css.map": "/static/css/main.132387b5.css.map",
+    "main.07b70469.js.map": "/static/js/main.07b70469.js.map",
+    "585.f6b16a20.chunk.js.map": "/static/js/585.f6b16a20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.132387b5.css",
-    "static/js/main.8426351d.js"
+    "static/js/main.07b70469.js"
   ]
 }
