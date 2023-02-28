@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/opera-ui/static/css/main.132387b5.css",
-    "main.js": "/opera-ui/static/js/main.2aa8ccbc.js",
-    "static/js/585.f6b16a20.chunk.js": "/opera-ui/static/js/585.f6b16a20.chunk.js",
+    "main.js": "/opera-ui/static/js/main.9b516357.js",
+    "static/js/35.9671a6fa.chunk.js": "/opera-ui/static/js/35.9671a6fa.chunk.js",
+    "static/js/773.fa356c7c.chunk.js": "/opera-ui/static/js/773.fa356c7c.chunk.js",
     "static/media/solt-curd-fritter.jpg": "/opera-ui/static/media/solt-curd-fritter.81c9ee5286d8f348e6b7.jpg",
     "static/media/reception.jpg": "/opera-ui/static/media/reception.edff48f5150af972e7d6.jpg",
     "static/media/plate-health.jpg": "/opera-ui/static/media/plate-health.77ed537445f62e62aa5b.jpg",
@@ -15,11 +16,12 @@
     "static/media/no-smoking.png": "/opera-ui/static/media/no-smoking.2273a30bc1dd73c86e6b.png",
     "index.html": "/opera-ui/index.html",
     "main.132387b5.css.map": "/opera-ui/static/css/main.132387b5.css.map",
-    "main.2aa8ccbc.js.map": "/opera-ui/static/js/main.2aa8ccbc.js.map",
-    "585.f6b16a20.chunk.js.map": "/opera-ui/static/js/585.f6b16a20.chunk.js.map"
+    "main.9b516357.js.map": "/opera-ui/static/js/main.9b516357.js.map",
+    "35.9671a6fa.chunk.js.map": "/opera-ui/static/js/35.9671a6fa.chunk.js.map",
+    "773.fa356c7c.chunk.js.map": "/opera-ui/static/js/773.fa356c7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.132387b5.css",
-    "static/js/main.2aa8ccbc.js"
+    "static/js/main.9b516357.js"
   ]
 }
