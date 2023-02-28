@@ -8,7 +8,7 @@ export const NavBar = () => {
         <div className="nav_bar">
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="/">Opera Passage</Navbar.Brand>
+                    <NavLink to="/">Opera Passage</NavLink>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>

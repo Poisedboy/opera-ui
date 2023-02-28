@@ -12,14 +12,14 @@ import breakfast7 from '../../assets/breakfast/plate-health.jpg';
 import breakfast8 from '../../assets/breakfast/croissant-n-cutting.jpg';
 
 const breakfast = [
-    { id: 1, name: 'Яєшня', picture: breakfast1 },
-    { id: 2, name: 'Солодкі сирники', picture: breakfast2 },
-    { id: 3, name: 'Солені сирники', picture: breakfast3 },
-    { id: 4, name: 'Млинці з куркою та грибами', picture: breakfast4 },
-    { id: 5, name: 'Солодкі млинці', picture: breakfast5 },
-    { id: 6, name: 'Вівсянка', picture: breakfast6 },
-    { id: 7, name: 'Тарілка "Здоров\'я"', picture: breakfast7 },
-    { id: 8, name: 'Круасан з нарізкою', picture: breakfast8 }
+    { id: 1, name: 'Яєшня', picture: breakfast1, ingredients: 'яйце, помідор, огірок, листя салату, сосиска, булка, масло.' },
+    { id: 2, name: 'Солодкі сирники', picture: breakfast2, ingredients: 'сир кисломолочний, лісові ягоди, ягідний джем, сметана.' },
+    { id: 3, name: 'Солені сирники', picture: breakfast3, ingredients: 'сир кисломолочний, зелень, соус песто, сметана.' },
+    { id: 4, name: 'Млинці з куркою та грибами', picture: breakfast4, ingredients: 'млинці, курка, гриби, зелень, помідор чері, кетчуп.' },
+    { id: 5, name: 'Солодкі млинці', picture: breakfast5, ingredients: 'млинці, сир кисломолочний, лісові ягоди, сметана.' },
+    { id: 6, name: 'Вівсянка', picture: breakfast6, ingredients: 'вівсянка, банан, малина, горіх.' },
+    { id: 7, name: 'Тарілка "Здоров\'я"', picture: breakfast7, ingredients: 'яйце, мікро грін, помідор чері.' },
+    { id: 8, name: 'Круасан з нарізкою', picture: breakfast8, ingredients: 'круасан, сир твердий, помідор, огірок, листя салату, оливки, масло.' }
 ];
 
 const Breakfasts = () => {
@@ -27,7 +27,7 @@ const Breakfasts = () => {
     const list = breakfast.map(item => {
         return (
             <div key={item.id}>
-                <CustomCard name={item.name} picture={item.picture} />
+                <CustomCard name={item.name} picture={item.picture} ingredients={item.ingredients} />
             </div>
         );
     });

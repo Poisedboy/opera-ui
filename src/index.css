@@ -22,3 +22,10 @@ code {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+/* @media screen and (max-width: 600px) {
+  .custom-style {
+    display: flex;
+    flex-direction: column;
+  }
+} */
