@@ -3,13 +3,15 @@ import './App.css';
 import { NavBar } from './components/NavBar';
 import { AuthProvider } from './provider/AuthProvider';
 import RoutePath from './routes/RoutePath';
-import {HashLoader} from 'react-spinners';
+import {RingLoader} from 'react-spinners';
 
 const override = {
   height: '100vh',
-  display: "flex",
+  // display: 'flex',
+  // justifyContent: 'center',
+  // alignItems: 'center',
   margin: "0 auto",
-  borderColor: "red",
+  color: "red",
 };
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
 
   return (
     <div>
-      {loading ? <HashLoader color='black' loading={loading} cssOverride={override} size={150} /> :
+      {loading ? <div className='d-flex justify-content-center align-items-center'><RingLoader color='#ffff29' loading={loading} cssOverride={override} size={150} /></div> :
         <AuthProvider>
           <NavBar />
           <RoutePath />

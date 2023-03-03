@@ -2,11 +2,11 @@ import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import KeyCard from '../../../assets/signs/key-card.png';
 
-const KeyCardFine = () => {
+const KeyCardFineSnippet = () => {
     return (
-        <Row>
-            <Col xs={12} sm={4}>
-                <Card.Img src={KeyCard} alt='Sign key card' />
+        <Row className="flex-row-reverse">
+            <Col xs={12} sm={4} className='d-flex justify-content-center'>
+                <Card.Img src={KeyCard} alt='Sign key card' style={{ maxWidth: '200px' }} />
             </Col>
             <Col xs={12} sm={8} className='d-flex align-items-center'>
                 <Card.Title>
@@ -19,4 +19,4 @@ const KeyCardFine = () => {
     )
 };
 
-export default KeyCardFine;
+export default KeyCardFineSnippet;

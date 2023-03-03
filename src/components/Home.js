@@ -1,8 +1,9 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 import Banner from "./Banner";
-import KeyCardFine from "./Information/KeyCardFine/KeyCardFine";
+import KeyCardFineSnippet from "./Information/KeyCardFineSnippet/KeyCardFineSnippet";
 import NoSmokingSnippet from "./Information/NoSmokingSnippet/NoSmokingSnippet";
+import RoomServiceSnippet from "./Information/RoomServiceSnippet/RoomServiceSnippet";
 
 const Home = () => {
 
@@ -14,8 +15,9 @@ const Home = () => {
                 style={{padding: '15px'}}
             >
                 <Card.Title>ПРАВИЛА НАШОГО ГОТЕЛЮ</Card.Title>
+                <RoomServiceSnippet />
                 <NoSmokingSnippet />
-                <KeyCardFine />
+                <KeyCardFineSnippet />
             </Container>
         </div>
     );
