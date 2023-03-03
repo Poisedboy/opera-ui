@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/opera-ui/static/css/main.03db23f5.css",
-    "main.js": "/opera-ui/static/js/main.f4333dae.js",
+    "main.css": "/opera-ui/static/css/main.06b92ee6.css",
+    "main.js": "/opera-ui/static/js/main.ee7b2b22.js",
     "static/js/35.9671a6fa.chunk.js": "/opera-ui/static/js/35.9671a6fa.chunk.js",
     "static/js/773.fa356c7c.chunk.js": "/opera-ui/static/js/773.fa356c7c.chunk.js",
     "static/media/solt-curd-fritter.jpg": "/opera-ui/static/media/solt-curd-fritter.81c9ee5286d8f348e6b7.jpg",
     "static/media/reception.jpg": "/opera-ui/static/media/reception.edff48f5150af972e7d6.jpg",
+    "static/media/fasad.jpg": "/opera-ui/static/media/fasad.96277dc8819ea54e8296.jpg",
+    "static/media/lux403.jpg": "/opera-ui/static/media/lux403.bb7a5e61ad4b1e673c75.jpg",
+    "static/media/lux401.jpg": "/opera-ui/static/media/lux401.88d47fd4f8ef26c15741.jpg",
     "static/media/plate-health.jpg": "/opera-ui/static/media/plate-health.77ed537445f62e62aa5b.jpg",
     "static/media/croissant-n-cutting.jpg": "/opera-ui/static/media/croissant-n-cutting.91e2cda9f7a6248ed03e.jpg",
     "static/media/fry-eggs.jpg": "/opera-ui/static/media/fry-eggs.f262d094b05121d75d62.jpg",
@@ -16,13 +19,13 @@
     "static/media/no-smoking.png": "/opera-ui/static/media/no-smoking.2273a30bc1dd73c86e6b.png",
     "static/media/room-service.png": "/opera-ui/static/media/room-service.57d9e0336b921e38fb35.png",
     "index.html": "/opera-ui/index.html",
-    "main.03db23f5.css.map": "/opera-ui/static/css/main.03db23f5.css.map",
-    "main.f4333dae.js.map": "/opera-ui/static/js/main.f4333dae.js.map",
+    "main.06b92ee6.css.map": "/opera-ui/static/css/main.06b92ee6.css.map",
+    "main.ee7b2b22.js.map": "/opera-ui/static/js/main.ee7b2b22.js.map",
     "35.9671a6fa.chunk.js.map": "/opera-ui/static/js/35.9671a6fa.chunk.js.map",
     "773.fa356c7c.chunk.js.map": "/opera-ui/static/js/773.fa356c7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03db23f5.css",
-    "static/js/main.f4333dae.js"
+    "static/css/main.06b92ee6.css",
+    "static/js/main.ee7b2b22.js"
   ]
 }
