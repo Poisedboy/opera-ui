@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import './nav.css';
 
 export const NavBar = () => {
     const [expanded, setExpanded] = useState(false);
@@ -17,7 +16,7 @@ export const NavBar = () => {
     window.addEventListener('scroll', changeBg);
 
     return (
-        <Navbar fixed="top" bg={navbar ? 'light' : ' '} expanded={expanded} expand="lg">
+        <Navbar fixed="top" bg={(navbar || expanded) ? 'light' : ' '} expanded={expanded} expand="lg">
             <Container>
                 <NavLink to="/">Opera Passage</NavLink>
                 <Navbar.Toggle onClick={() => setExpanded(expanded ? false : 'expanded')} aria-controls="basic-navbar-nav" />

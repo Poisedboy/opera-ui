@@ -16,8 +16,8 @@ const Home = () => {
             >
                 <Card.Title>ПРАВИЛА НАШОГО ГОТЕЛЮ</Card.Title>
                 <RoomServiceSnippet />
-                <NoSmokingSnippet />
                 <KeyCardFineSnippet />
+                <NoSmokingSnippet />
             </Container>
         </div>
     );

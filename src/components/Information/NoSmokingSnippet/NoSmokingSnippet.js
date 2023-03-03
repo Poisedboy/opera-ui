@@ -7,7 +7,7 @@ const NoSmokingSnippet = () => {
     return (
         <Row>
             <Col xs={12} sm={4} className='d-flex justify-content-center'>
-                <Card.Img src={NoSmoking} alt='Sign no smoke' style={{ maxWidth: '250px'}} />
+                <Card.Img src={NoSmoking} alt='Cleaning' style={{ maxWidth: '200px'}} />
             </Col>
             <Col xs={12} sm={8} className='d-flex align-items-center'>
                 <Card.Title>
