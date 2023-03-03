@@ -1,25 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, Container, Nav} from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
+import './nav.css';
 
 export const NavBar = () => {
+    const [expanded, setExpanded] = useState(false);
+    const [navbar, setNavbar] = useState(false);
+
+    function changeBg () {
+        if (window.scrollY >= 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        };
+    };
+    window.addEventListener('scroll', changeBg);
 
     return (
-        <div className="nav_bar">
-            <Navbar bg="light" expand="lg">
-                <Container>
-                    <NavLink to="/">Opera Passage</NavLink>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar fixed="top" bg={navbar ? 'light' : ' '} expanded={expanded} expand="lg">
+            <Container>
+                <NavLink to="/">Opera Passage</NavLink>
+                <Navbar.Toggle onClick={() => setExpanded(expanded ? false : 'expanded')} aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <NavLink to='/'>Home</NavLink>
-                        <NavLink to='/breakfast'>Breakfast</NavLink>    
-                        <NavLink to='/about'>About</NavLink>
-                        <NavLink to='/extra'>Extra</NavLink>
+                        <NavLink onClick={() => setExpanded(false)} to='/'>Головна</NavLink>
+                        <NavLink onClick={() => setExpanded(false)} to='/breakfast'>Сніданки</NavLink>    
+                        <NavLink onClick={() => setExpanded(false)} to='/about'>Про нас</NavLink>
+                        <NavLink onClick={() => setExpanded(false)} to='/extra'>Extra</NavLink>
                     </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-        </div>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }

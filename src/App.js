@@ -26,12 +26,12 @@ function App() {
 
   return (
     <div>
-      {loading ? <div className='d-flex justify-content-center align-items-center'><RingLoader color='#ffff29' loading={loading} cssOverride={override} size={150} /></div> :
+      {/* {loading ? <div className='d-flex justify-content-center align-items-center'><RingLoader color='#ffff29' loading={loading} cssOverride={override} size={150} /></div> : */}
         <AuthProvider>
           <NavBar />
           <RoutePath />
         </AuthProvider>
-      }
+      {/* } */}
     </div>
   );
 }
