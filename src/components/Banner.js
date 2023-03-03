@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import receptionPicture from '../assets/reception.jpg';
@@ -9,16 +9,18 @@ import lux403 from '../assets/lux403.jpg';
 const Banner = () => {
     const [smallWidth, setSmallWidth] = useState(false);
 
-    function widthHandler () {
-        if (window.innerWidth < 500) {
-            setSmallWidth(true);
-        } else {
-            setSmallWidth(false);
+    useEffect(() => {
+        function widthHandler () {
+            if (window.screen.width < 500) {
+                setSmallWidth(true);
+            } else {
+                setSmallWidth(false);
+            };
         };
-    };
+        widthHandler();
+    }, [setSmallWidth]);
 
-    window.addEventListener('resize', widthHandler);
-
+    console.log(window.screen.width);
     const renderImages = [receptionPicture, lux401, fasad, lux403].map((picture, index) => {
         return (
             <Carousel.Item key={index + 1}>
