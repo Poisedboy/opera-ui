@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card, Row, Col } from "react-bootstrap";
+import { Button, Card, Row } from "react-bootstrap";
 import Modal from 'react-bootstrap/Modal';
 
 const ModalWindow = ({name, picture, ingredients}) => {
@@ -14,16 +14,14 @@ const ModalWindow = ({name, picture, ingredients}) => {
                 ДЕТАЛІ
             </Button>
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} className='d-flex align-items-center'>
                 <Modal.Body>
-                    <Card>
+                    <Card style={{ border: 'none' }}>
                         <Row>
-                            <Col>
-                                <Card.Img src={picture} />
-                            </Col>
-                            <Col>
-                                <Modal.Title><Card.Title>{name}</Card.Title></Modal.Title>
-                            </Col>
+                            <Modal.Title className="d-flex justify-content-center"><Card.Title>{name}</Card.Title></Modal.Title>
+                        </Row>
+                        <Row>
+                            <Card.Img src={picture} />
                         </Row>
                         <Row>
                             <Card.Body>

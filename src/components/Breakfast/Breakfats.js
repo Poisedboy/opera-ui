@@ -10,6 +10,7 @@ import breakfast5 from '../../assets/breakfast/sweet-flippers.jpg';
 import breakfast6 from '../../assets/breakfast/cereal.jpg';
 import breakfast7 from '../../assets/breakfast/plate-health.jpg';
 import breakfast8 from '../../assets/breakfast/croissant-n-cutting.jpg';
+import Description from "./Description";
 
 const breakfast = [
     { id: 1, name: 'Яєшня', picture: breakfast1, ingredients: 'яйце, помідор, огірок, листя салату, сосиска, булка, масло.' },
@@ -33,8 +34,11 @@ const Breakfasts = () => {
     });
 
     return (
-        <Container className="d-flex flex-wrap justify-content-center">
-            {list}
+        <Container>
+            <Description />
+            <div className="d-flex flex-wrap justify-content-center">
+                {list}
+            </div>
         </Container>
     )
 };

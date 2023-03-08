@@ -4,17 +4,17 @@ import KeyCard from '../../../assets/signs/key-card.png';
 
 const KeyCardFineSnippet = () => {
     return (
-        <Row className="flex-row-reverse">
-            <Col xs={12} sm={4} className='d-flex justify-content-center'>
+        <>
+            <Row className="flex-row-reverse" xs={12} sm={4}>
                 <Card.Img src={KeyCard} alt='Sign key card' style={{ maxWidth: '200px' }} />
-            </Col>
-            <Col xs={12} sm={8} className='d-flex align-items-center'>
+            </Row>
+            <Row xs={12} sm={8}>
                 <Card.Title>
                     За втрату або поломку ключ-карти, штраф - 200 грн.
                     Ця карта відкриває двері на 1 поверсі, які ведуть до готельного ліфта.
                 </Card.Title>
-            </Col>
-        </Row>
+            </Row>
+        </>
             // <Card style={{ border: 'none' }} className='d-flex flex-wrap flex-row justify-content-center'>
     )
 };

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, Image } from 'react-bootstrap';
+import logo from '../assets/logo_opera.png';
 
 export const NavBar = () => {
     const [expanded, setExpanded] = useState(false);
@@ -18,7 +19,7 @@ export const NavBar = () => {
     return (
         <Navbar fixed="top" bg={(navbar || expanded) ? 'light' : ' '} expanded={expanded} expand="lg">
             <Container>
-                <NavLink to="/">Opera Passage</NavLink>
+                <NavLink to="/"><Image src={logo} style={{height: '50px'}} /></NavLink>
                 <Navbar.Toggle onClick={() => setExpanded(expanded ? false : 'expanded')} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>

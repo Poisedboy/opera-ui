@@ -11,10 +11,9 @@ const Home = () => {
         <div>
             <Banner />
             <Container
-                className="d-flex flex-column justify-content-center align-items-center"
                 style={{padding: '15px'}}
             >
-                <Card.Title>ПРАВИЛА НАШОГО ГОТЕЛЮ</Card.Title>
+                <Card.Title className="d-flex flex-column justify-content-center align-items-center">ПРАВИЛА НАШОГО ГОТЕЛЮ</Card.Title>
                 <RoomServiceSnippet />
                 <KeyCardFineSnippet />
                 <NoSmokingSnippet />
