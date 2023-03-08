@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/opera-ui/static/css/main.06b92ee6.css",
-    "main.js": "/opera-ui/static/js/main.95f2808c.js",
-    "static/js/660.7be88dc6.chunk.js": "/opera-ui/static/js/660.7be88dc6.chunk.js",
+    "main.js": "/opera-ui/static/js/main.13a60222.js",
+    "static/js/493.5459672c.chunk.js": "/opera-ui/static/js/493.5459672c.chunk.js",
     "static/js/773.fa356c7c.chunk.js": "/opera-ui/static/js/773.fa356c7c.chunk.js",
     "static/media/solt-curd-fritter.jpg": "/opera-ui/static/media/solt-curd-fritter.81c9ee5286d8f348e6b7.jpg",
     "static/media/reception.jpg": "/opera-ui/static/media/reception.edff48f5150af972e7d6.jpg",
@@ -17,16 +17,17 @@
     "static/media/sweet-curd-fritter.jpg": "/opera-ui/static/media/sweet-curd-fritter.13f939c9be33706c8de2.jpg",
     "static/media/chicken-flippers.jpg": "/opera-ui/static/media/chicken-flippers.4bfb17397c4b36abb3a6.jpg",
     "static/media/check-out.png": "/opera-ui/static/media/check-out.8b9bca4828b27cc0b73c.png",
+    "static/media/warning.png": "/opera-ui/static/media/warning.70749d1af1e21815cf31.png",
     "static/media/logo_opera.png": "/opera-ui/static/media/logo_opera.5e118e08edf252682bd7.png",
     "static/media/room-service.png": "/opera-ui/static/media/room-service.57d9e0336b921e38fb35.png",
     "index.html": "/opera-ui/index.html",
     "main.06b92ee6.css.map": "/opera-ui/static/css/main.06b92ee6.css.map",
-    "main.95f2808c.js.map": "/opera-ui/static/js/main.95f2808c.js.map",
-    "660.7be88dc6.chunk.js.map": "/opera-ui/static/js/660.7be88dc6.chunk.js.map",
+    "main.13a60222.js.map": "/opera-ui/static/js/main.13a60222.js.map",
+    "493.5459672c.chunk.js.map": "/opera-ui/static/js/493.5459672c.chunk.js.map",
     "773.fa356c7c.chunk.js.map": "/opera-ui/static/js/773.fa356c7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06b92ee6.css",
-    "static/js/main.95f2808c.js"
+    "static/js/main.13a60222.js"
   ]
 }
