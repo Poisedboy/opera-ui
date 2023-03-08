@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import CustomCard from './CustomCard';
+import CustomCardBreakfast from "./CustomCardBreakfast";
 
 import breakfast1 from '../../assets/breakfast/fry-eggs.jpg';
 import breakfast2 from '../../assets/breakfast/sweet-curd-fritter.jpg';
@@ -28,7 +28,7 @@ const Breakfasts = () => {
     const list = breakfast.map(item => {
         return (
             <div key={item.id}>
-                <CustomCard name={item.name} picture={item.picture} ingredients={item.ingredients} />
+                <CustomCardBreakfast name={item.name} picture={item.picture} ingredients={item.ingredients} />
             </div>
         );
     });

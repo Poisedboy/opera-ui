@@ -4,7 +4,7 @@ import ModalWindow from "../Modal/ModalWindow";
 import Loader from "../Loaders/Loader";
 const LazyImage = lazy(() => import("./LazyImage"));
 
-const CustomCard = ({ picture, name, ingredients }) => {
+const CustomCardBreakfast = ({ picture, name, ingredients }) => {
 
     return (
         <Fade in={true}>
@@ -21,4 +21,4 @@ const CustomCard = ({ picture, name, ingredients }) => {
     );
 };
 
-export default CustomCard;
+export default CustomCardBreakfast;
