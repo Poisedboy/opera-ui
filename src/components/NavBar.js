@@ -20,13 +20,13 @@ export const NavBar = () => {
         <Navbar fixed="top" bg={(navbar || expanded) ? 'light' : ' '} expanded={expanded} expand="lg">
             <Container>
                 <NavLink to="/"><Image src={logo} style={{height: '50px'}} /></NavLink>
-                <Navbar.Toggle onClick={() => setExpanded(expanded ? false : 'expanded')} aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle onClick={() => setExpanded(expanded ? false : 'expanded')} style={{backgroundColor: 'white'}} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>
                         <NavLink onClick={() => setExpanded(false)} to='/'>Головна</NavLink>
                         <NavLink onClick={() => setExpanded(false)} to='/breakfast'>Сніданки</NavLink>    
-                        <NavLink onClick={() => setExpanded(false)} to='/about'>Про нас</NavLink>
-                        <NavLink onClick={() => setExpanded(false)} to='/extra'>Extra</NavLink>
+                        <NavLink onClick={() => setExpanded(false)} to='/contacts'>Контакти</NavLink>
+                        {/* <NavLink onClick={() => setExpanded(false)} to='/extra'>Extra</NavLink> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

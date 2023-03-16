@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from '../components/Home';
-import About from "../components/About";
+import Contacts from "../components/Contacts";
 import Login from "../components/Login";
 // import Authentication from "./Authentication";
 import Authorization from "./Authorization";
@@ -14,7 +14,7 @@ const RoutePath = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
+            <Route path="contacts" element={<Contacts />} />
             <Route path="breakfast" element={
                 <Suspense fallback={<Loader />}>
                     <Breakfasts />

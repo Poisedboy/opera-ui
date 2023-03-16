@@ -11,7 +11,7 @@ const ModalWindow = ({name, picture, ingredients}) => {
     return (
         <>
             <Button onClick={handleShow} variant='light'>
-                ДЕТАЛІ
+                ІНГРEДІЄНТИ
             </Button>
 
             <Modal show={show} onHide={handleClose} className='d-flex align-items-center'>

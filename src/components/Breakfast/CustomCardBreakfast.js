@@ -13,8 +13,10 @@ const CustomCardBreakfast = ({ picture, name, ingredients }) => {
                     <LazyImage image={picture} />
                 </Suspense>
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <ModalWindow name={name} picture={picture} ingredients={ingredients} />
+                    <Card.Title className="d-flex justify-content-center">{name}</Card.Title>
+                    <div className="d-flex justify-content-end">
+                        <ModalWindow name={name} picture={picture} ingredients={ingredients} />
+                    </div>
                 </Card.Body>
             </Card>
         </Fade>
