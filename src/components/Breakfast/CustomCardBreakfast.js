@@ -8,12 +8,12 @@ const CustomCardBreakfast = ({ picture, name, ingredients }) => {
 
     return (
         <Fade in={true}>
-            <Card style={{ width: '20rem', margin: '5px' }}>
+            <Card style={{margin: '5px', width: '20rem'}}>
                 <Suspense fallback={<Loader />}>
                     <LazyImage image={picture} />
                 </Suspense>
                 <Card.Body>
-                    <Card.Title className="d-flex justify-content-center">{name}</Card.Title>
+                    <Card.Title className="d-flex justify-content-center" style={{height: '50px'}}>{name}</Card.Title>
                     <div className="d-flex justify-content-end">
                         <ModalWindow name={name} picture={picture} ingredients={ingredients} />
                     </div>
