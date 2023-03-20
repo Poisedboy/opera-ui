@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Banner from "./Banner";
 import Information from "./Information/Information";
+import Parking from "./Parking";
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
                 style={{padding: '15px'}}
             >
                 <Information />
+                <hr></hr>
             </Container>
         </div>
     );

@@ -8,6 +8,7 @@ import Authorization from "./Authorization";
 import PERMISSIONS from "../permissions/Permissions";
 import Extra from '../components/Extra';
 import Loader from "../components/Loaders/Loader";
+import Parking from "../components/Parking";
 const Breakfasts = lazy(() => import('../components/Breakfast/Breakfats'));
 
 const RoutePath = () => {
@@ -15,6 +16,7 @@ const RoutePath = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="contacts" element={<Contacts />} />
+            <Route path="parking" element={<Parking />} />
             <Route path="breakfast" element={
                 <Suspense fallback={<Loader />}>
                     <Breakfasts />

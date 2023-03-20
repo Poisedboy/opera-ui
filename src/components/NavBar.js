@@ -26,6 +26,7 @@ export const NavBar = () => {
                         <NavLink onClick={() => setExpanded(false)} to='/'>Головна</NavLink>
                         <NavLink onClick={() => setExpanded(false)} to='/breakfast'>Сніданки</NavLink>    
                         <NavLink onClick={() => setExpanded(false)} to='/contacts'>Контакти</NavLink>
+                        <NavLink onClick={() => setExpanded(false)} to='/parking'>Паркінг</NavLink>
                         {/* <NavLink onClick={() => setExpanded(false)} to='/extra'>Extra</NavLink> */}
                     </Nav>
                 </Navbar.Collapse>
