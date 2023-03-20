@@ -1,28 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import { NavBar } from './components/NavBar';
 import { AuthProvider } from './provider/AuthProvider';
 import RoutePath from './routes/RoutePath';
-import {RingLoader} from 'react-spinners';
-
-const override = {
-  height: '100vh',
-  // display: 'flex',
-  // justifyContent: 'center',
-  // alignItems: 'center',
-  margin: "0 auto",
-  color: "red",
-};
+import Author from './components/Author';
 
 function App() {
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 5000);
-  }, []);
 
   return (
     <div>
@@ -30,6 +13,7 @@ function App() {
         <AuthProvider>
           <NavBar />
           <RoutePath />
+          <Author />
         </AuthProvider>
       {/* } */}
     </div>
